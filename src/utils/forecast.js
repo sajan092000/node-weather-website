@@ -39,7 +39,8 @@ const forecast = (lat, lng, callback) => {
                     body.current.temperature +
                     " degree out. There is an " +
                     body.current.precip +
-                    "% chance of rain"
+                    "% chance of rain."+
+                   " It feels like "+body.current.feelslike +" degree out. There is "+body.current.humidity+"% humidity."
         
       );
       //   callback(undefined, {
