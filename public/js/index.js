@@ -1,6 +1,6 @@
 
 
-// console.log("Client side information showing !!");
+
 
 
 fetch('http://puzzle.mead.io/puzzle').then((response)=>{
